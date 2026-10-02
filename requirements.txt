@@ -1,0 +1,9 @@
+streamlit
+yfinance
+pandas
+python-dotenv
+groq
+sentence-transformers
+faiss-cpu
+torch
+torchvision
