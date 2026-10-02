@@ -52,7 +52,7 @@ Yahoo Finance / yfinance
 Sentence Transformers
 FAISS
 Groq API
-Large Language Model
+OpenAI GPT-OSS 120B
 Pandas
 
 Pandas
@@ -71,7 +71,8 @@ Pandas
     FAISS retrieves the most relevant news headlines based on the financial query.
 
 5. LLM Analysis
-    The retrieved headlines are passed to the LLM through the Groq API.
+
+    The retrieved headlines are passed to **OpenAI GPT-OSS 120B through the Groq API** for sentiment analysis and signal generation.
 
 6. Signal Generation
     The model analyzes the retrieved financial context and generates:
